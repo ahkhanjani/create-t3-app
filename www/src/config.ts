@@ -30,6 +30,7 @@ export const KNOWN_LANGUAGES = {
   ar: "العربية",
   en: "English",
   es: "Español",
+  fa: "فارسی",
   fr: "Français",
   ja: "日本語",
   pt: "Português",
@@ -413,6 +414,32 @@ export const SIDEBAR: Sidebar = {
       { text: "Docker", link: "zh-hans/deployment/docker" },
     ],
   },
+  fa: {
+    "Create T3 App": [
+      { text: "معرفی", link: "fa/introduction" },
+      { text: "چرا CT3A؟", link: "fa/why" },
+      { text: "نصب", link: "fa/installation" },
+      { text: "ساختار پوشه (Pages)", link: "fa/folder-structure-pages" },
+      { text: "سوالات متداول", link: "fa/faq" },
+      { text: "مجموعه T3", link: "fa/t3-collection" },
+      { text: "مثال‌ها", link: "fa/examples" },
+      { text: "توصیه‌های دیگر", link: "fa/other-recs" },
+    ],
+    Usage: [
+      { text: "اولین قدم‌ها", link: "fa/usage/first-steps" },
+      { text: "Next.js", link: "fa/usage/next-js" },
+      { text: "TypeScript", link: "fa/usage/typescript" },
+      { text: "tRPC", link: "fa/usage/trpc" },
+      { text: "Prisma", link: "fa/usage/prisma" },
+      { text: "NextAuth.js", link: "fa/usage/next-auth" },
+      { text: "متغیرهای محیطی", link: "fa/usage/env-variables" },
+      { text: "Tailwind CSS", link: "fa/usage/tailwind" },
+    ],
+    Deployment: [
+      { text: "Vercel", link: "fa/deployment/vercel" },
+      { text: "Docker", link: "fa/deployment/docker" },
+    ],
+  },
 };
 
 export const SIDEBAR_HEADER_MAP: Record<
@@ -474,5 +501,10 @@ export const SIDEBAR_HEADER_MAP: Record<
     "Create T3 App": "Create T3 App",
     Usage: "用法",
     Deployment: "部署",
+  },
+  fa: {
+    "Create T3 App": "Create T3 App",
+    Usage: "استفاده",
+    Deployment: "استقرار",
   },
 };
